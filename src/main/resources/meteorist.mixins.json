@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "zgoly.meteorist.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientRecipeBookAccessor",
+    "DisconnectedScreenMixin",
+    "GameRendererMixin",
+    "IngredientAccessor",
+    "MinescriptAccessor",
+    "MobSpawnerLogicAccessor",
+    "ModulesMixin",
+    "MouseMixin",
+    "RecipeFinderAccessor",
+    "TrapdoorBlockAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

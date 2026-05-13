@@ -1,0 +1,8 @@
+{
+  "name": "v26.1.2-1",
+  "body": "## What's Changed\r\n- Update to 26.1.2\r\n- Major refactor of `MeteoristStarscript` - added new functions `is_falling` and `would_take_damage`; improved fall damage/distance calculations with proper caching and edge-case handling\r\n- Baritone & Minescript updated to versions 26.1 and 5.0b11 respectively\r\n- `AutoSleep` logic simplified\r\n\r\n**Full Changelog**: https://github.com/Zgoly/Meteorist/compare/v1.21.11-2...v26.1.2-1",
+  "tag_name": "v26.1.2-1",
+  "size": 404503,
+  "updated_at": "2026-05-01T04:48:54Z",
+  "url": "https://github.com/Zgoly/Meteorist/releases/download/v26.1.2-1/meteorist-26.1.2-1.jar"
+}

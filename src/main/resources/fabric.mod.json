@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "meteorist",
+  "version": "${version}",
+  "name": "Meteorist",
+  "description": "Meteorist is a handy multi-tool add-on for Meteor Client, packed with utilities for everyday gameplay.",
+  "authors": [
+    "Zgoly"
+  ],
+  "contact": {
+    "homepage": "https://meteorist.pages.dev",
+    "sources": "https://github.com/Zgoly/Meteorist",
+    "issues": "https://github.com/Zgoly/Meteorist/issues",
+    "discord": "https://dsc.gg/zgoly"
+  },
+  "icon": "assets/meteorist/icon.png",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "zgoly.meteorist.Meteorist"
+    ],
+    "modmenu": [
+      "meteordevelopment.meteorclient.modintegration.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "meteorist.mixins.json"
+  ],
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://dsc.gg/zgoly"
+      }
+    },
+    "meteor-client:color": "0,128,255",
+    "meteorist:commit": "${commit}"
+  },
+  "depends": {
+    "minecraft": "*",
+    "meteor-client": "*",
+    "fabricloader": "*"
+  },
+  "suggests": {
+    "baritone": "*",
+    "minescript": "*"
+  }
+}
